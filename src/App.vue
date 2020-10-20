@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <el-container>
-      <el-aside width="200px">
+      <el-aside width="250px">
         <el-menu :default-openeds="['0']">
           <el-submenu index="0">
             <template slot="title"
@@ -52,16 +52,16 @@
             >
             <el-menu-item index="3-1">
               <router-link to="/vuePuzzleVcode"
-                >vuePuzzleVcode</router-link
+                >vuePuzzleVcode-滑块验证码</router-link
               ></el-menu-item
             >
             <el-menu-item index="3-2"
               ><router-link to="/vueAplayer"
-                >vueAplayer</router-link
+                >vueAplayer-音乐播放器</router-link
               ></el-menu-item
             >
             <el-menu-item index="3-3"
-              ><router-link to="/tinymce">tinymce</router-link></el-menu-item
+              ><router-link to="/tinymce">tinymce-富文本</router-link></el-menu-item
             >
           </el-submenu>
 
