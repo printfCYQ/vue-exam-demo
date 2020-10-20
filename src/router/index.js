@@ -67,6 +67,11 @@ const routes = [
     path: "/tinymce",
     name: "tinymce",
     component: () => import("../views/tinymce.vue")
+  },
+  {
+    path: "/zxQuill",
+    name: "zxQuill",
+    component: () => import("../views/zxQuill.vue")
   }
 ];
 

@@ -61,7 +61,14 @@
               ></el-menu-item
             >
             <el-menu-item index="3-3"
-              ><router-link to="/tinymce">tinymce-富文本</router-link></el-menu-item
+              ><router-link to="/tinymce"
+                >tinymce-富文本</router-link
+              ></el-menu-item
+            >
+            <el-menu-item index="3-4"
+              ><router-link to="/zxQuill"
+                >zxQuill-富文本</router-link
+              ></el-menu-item
             >
           </el-submenu>
 
