@@ -8,12 +8,12 @@ import "element-ui/lib/theme-chalk/index.css";
 import "./mock";
 import request from "@/api/request";
 
-Vue.prototype.request = request
+Vue.prototype.request = request;
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 new Vue({
   router,
   store,
-  render: (h) => h(App),
+  render: h => h(App)
 }).$mount("#app");
