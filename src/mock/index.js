@@ -5,3 +5,4 @@ import list from "./example";
 // 控制台network里看不到请求 结果请console出来看
 Mock.mock("/listData", "post", Mock.mock(list.listData));
 Mock.mock("/strings", "post", Mock.mock(list.strings));
+Mock.mock("/params", "post", Mock.mock(list.params));
