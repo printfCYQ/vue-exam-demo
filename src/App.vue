@@ -70,31 +70,6 @@
                 >zxQuill-富文本</router-link
               ></el-menu-item
             >
-            <el-menu-item index="3-5"
-              ><router-link to="/mindmap"
-                >mindmap-思维导图</router-link
-              ></el-menu-item
-            >
-            <el-menu-item index="3-6"
-              ><router-link to="/mind-elixir"
-                >mind-elixir-思维导图</router-link
-              ></el-menu-item
-            >
-            <el-menu-item index="3-7"
-              ><router-link to="/vue-mindmap"
-                >vue-mindmap-思维导图</router-link
-              ></el-menu-item
-            >
-            <el-menu-item index="3-8"
-              ><router-link to="/vue-super-flow"
-                >vue-super-flow-流程图</router-link
-              ></el-menu-item
-            >
-            <el-menu-item index="3-9"
-              ><router-link to="/vue-super-flow2"
-                >vue-super-flow-2-流程图</router-link
-              ></el-menu-item
-            >
           </el-submenu>
 
           <el-submenu index="4">

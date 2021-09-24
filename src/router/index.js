@@ -72,32 +72,7 @@ const routes = [
     path: "/zxQuill",
     name: "zxQuill",
     component: () => import("../views/zxQuill.vue"),
-  },
-  {
-    path: "/mindmap",
-    name: "mindmap",
-    component: () => import("../views/mindmap.vue"),
-  },
-  {
-    path: "/mind-elixir",
-    name: "mind-elixir",
-    component: () => import("../views/mind-elixir.vue"),
-  },
-  {
-    path: "/vue-mindmap",
-    name: "vue-mindmap",
-    component: () => import("../views/vue-mindmap.vue"),
-  },
-  {
-    path: "/vue-super-flow",
-    name: "vue-super-flow",
-    component: () => import("../views/vue-super-flow.vue"),
-  },
-  {
-    path: "/vue-super-flow2",
-    name: "vue-super-flow2",
-    component: () => import("../views/vue-super-flow-2.vue"),
-  },
+  }
 ];
 
 const router = new VueRouter({
